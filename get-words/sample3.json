@@ -1,0 +1,5 @@
+{
+    "system": "You are a helpful assistant.",
+    "user": "If you don't fully understand the story, please ask a true of false question about the story. It is best if one question consists of multiple logically related questions. (include language, culture, story) ,no longer than 70 words.",
+    "assistant": "Why should everyone on the ship be Puritans? According to John Holbrook's inquiry about Kit, \"You are not a Puritan then?\" Is this related to the United States? And why they can't swim?"
+}
