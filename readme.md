@@ -21,7 +21,8 @@
 - 拆分文段并给出大意
 - 自定义问问题(比如:用中文帮我理一下这本小说的人物和人际关系)
 ## /quiz prepare
-- 本人自用的quiz准备(实际上就是把大模型总结的小说大意过一遍)
+- 本人自用的quiz准备(实际上我就是把大模型总结的小说大意过一遍)
+- 2024-7-11 : 都生成完了
 ## /Reading Response
 - 我自己写的reading response
 ## /syllabus
@@ -32,7 +33,6 @@
 ## 配置
 - 对于```client = OpenA(api_key="???", base_url="https://api.deepseek.com")```
   - api_key是你的key,在https://platform.deepseek.com/usage 注册,氪个一块够了
-  - 代码里写的可能是我自己的key,因为课程期间上传频繁我懒得改了,请你自觉替换成你自己的
 ## 使用
 - 对于```main('a.txt', n, 'sample.json' , prompt1)```
   - a.txt是文本
