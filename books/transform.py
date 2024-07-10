@@ -14,6 +14,6 @@ def epub_to_pdf(epub_path, pdf_path):
     pdfkit.from_string(content, pdf_path)
 
 # Example usage
-epub_path = '1. The Witch of Blackbird Pond.epub'
-pdf_path = '1. The Witch of Blackbird Pond.pdf'
+epub_path = '（狄更斯的圣诞故事）圣诞颂歌 (【英】查尔斯·狄更斯) (Z-Library).epub'
+pdf_path = '（狄更斯的圣诞故事）圣诞颂歌 (【英】查尔斯·狄更斯) (Z-Library).pdf'
 epub_to_pdf(epub_path, pdf_path)
