@@ -36,8 +36,16 @@
 - 首先把你当天的阅读内容从pdf中直接选中,拷到a.txt中,然后只需要在脚本中操作就行了
 - ```get_words.py```只包含两种取词,功能不全,请你用```get_words.ipynb```
 ## 配置
-- 对于```client = OpenA(api_key="???", base_url="https://api.deepseek.com")```
-  - api_key是你的key,在https://platform.deepseek.com/usage 注册,氪个一块够了
+- 如果您不会python
+  - 如果您仅仅是辅助阅读,quiz prepare文件夹里我都生成好了
+  - 如果您需要用脚本,请善用搜索进行vscode配置,python配置,其他python库的配置尤其是jupyter(当然可以用vscode的插件),虽然过程不复杂但是强烈建议直接抓个cs人帮您,也可以直接找我
+- 如果您会python
+  - 命令行运行
+```
+pip install openai
+```
+  - 对于```client = OpenA(api_key="???", base_url="https://api.deepseek.com")```
+    - api_key是你的key,在https://platform.deepseek.com/usage 注册,氪个一块够了
 ## 使用
 - 对于```main('a.txt', n, 'sample.json' , prompt1)```
   - a.txt是文本
